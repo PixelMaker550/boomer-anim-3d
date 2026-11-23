@@ -1,0 +1,17 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+export_presets.cfg
+
+# Mono / C# (optional)
+.mono/
+data_*/
+mono_crash.*.json
+
+# Editor / OS / temporary files
+.vscode/
+*.tmp
+*.bak
+*~
+.DS_Store
+Thumbs.db

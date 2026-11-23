@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://vdmknn7cycho"]
+
+[ext_resource type="Script" uid="uid://viubk0dtxb5d" path="res://addons/boomer_anim_3d/boomer_animated_sprite_3d.gd" id="1_a202f"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_a202f"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_noarx"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_i5arm"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_a0tk4"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_r3fl7"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wc5p8"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jka67"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jsk3o"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4arys"]
+
+[node name="Node3D" type="Node3D" unique_id=1096704268]
+
+[node name="BoomerAnimatedSprite3D" type="AnimatedSprite3D" parent="." unique_id=1326014215]
+pixel_size = 0.03125
+billboard = 2
+alpha_cut = 1
+texture_filter = 0
+sprite_frames = SubResource("SpriteFrames_a202f")
+script = ExtResource("1_a202f")
+frames_by_direction = Array[SpriteFrames]([SubResource("SpriteFrames_noarx"), SubResource("SpriteFrames_i5arm"), SubResource("SpriteFrames_a0tk4"), SubResource("SpriteFrames_r3fl7"), SubResource("SpriteFrames_a202f"), SubResource("SpriteFrames_wc5p8"), SubResource("SpriteFrames_jka67"), SubResource("SpriteFrames_jsk3o")])
+omni_frames = SubResource("SpriteFrames_4arys")
+editor_direction = 4
+metadata/_custom_type_script = "uid://viubk0dtxb5d"

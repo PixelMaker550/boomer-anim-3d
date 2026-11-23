@@ -1,0 +1,13 @@
+# Normalize EOL for all files that Git considers text files.
+* text=auto eol=lf
+
+# Exclude repository/project files when packaging archives (e.g. Godot Asset Library)
+/.* export-ignore
+/.vscode export-ignore
+/demo export-ignore
+/docs export-ignore
+/*.tscn export-ignore
+/*.tscn* export-ignore
+/project.godot export-ignore
+/icon.svg export-ignore
+/icon.svg.import export-ignore
